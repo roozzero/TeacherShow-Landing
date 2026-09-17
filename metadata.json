@@ -1,0 +1,8 @@
+{
+  "name": "تیچرشو - پلتفرم جامع و هوشمند مدارس",
+  "description": "پلتفرم یکپارچه مدیریت مدارس، برنامه‌ریزی هفتگی، کلاس آنلاین، تکالیف و کارنامه هوشمند تیچرشو",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

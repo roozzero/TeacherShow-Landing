@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تیچرشو | پلتفرم مدیریت هوشمند مدارس و آموزشگاه‌ها</title>
+  <meta name="description" content="پلتفرم یکپارچه مدیریت مدارس، برنامه‌ریزی هفتگی، کلاس آنلاین، تکالیف و کارنامه هوشمند تیچرشو">
+  <meta property="og:title" content="تیچرشو - پلتفرم جامع و هوشمند مدارس">
+  <meta property="og:description" content="پلتفرم یکپارچه مدیریت مدارس، برنامه‌ریزی هفتگی، کلاس آنلاین، تکالیف و کارنامه هوشمند تیچرشو">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Sticky Navbar Header -->
+  <header id="main-header" class="navbar-sticky" dir="rtl">
+    <div class="container">
+      <div class="nav-box saasable-nav-box">
+        <!-- 1. Right: Brand Logo (تیچرشو) -->
+        <a href="#hero" class="saasable-brand" aria-label="صفحه اصلی تیچرشو">
+          <div class="saasable-brand-icon">
+            <img src="assets/Imgs/Logo/Logo.png" alt="لوگوی تیچرشو" class="nav-brand-logo-img">
+          </div>
+          <span class="saasable-brand-name">تیچرشو</span>
+        </a>
+
+        <!-- 2. Center: Rounded Pill Capsule Navigation Menu -->
+        <nav class="saasable-nav-capsule" aria-label="ناوبری اصلی سامانه">
+          <ul class="saasable-nav-list">
+            <li class="saasable-nav-item">
+              <a href="#hero" class="saasable-nav-link active">صفحه اصلی</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#at-a-glance" class="saasable-nav-link">در یک نگاه</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#ecosystem" class="saasable-nav-link">اکوسیستم</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#assignments" class="saasable-nav-link">آموزش هوشمند</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#workspace" class="saasable-nav-link">مدیریت هوشمند</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#testimonials" class="saasable-nav-link">روایت شما</a>
+            </li>
+            <li class="saasable-nav-item">
+              <a href="#faq" class="saasable-nav-link">سوالات پرتکرار</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 3. Left: Action Buttons (مشاهده دمو + ورود/ثبت نام) -->
+        <div class="saasable-nav-actions">
+          <a href="#workspace" class="saasable-btn-demo" aria-label="مشاهده دمو">
+            مشاهده دمو
+          </a>
+
+          <a href="#" class="saasable-btn-buynow open-login-trigger">
+            ورود / ثبت‌نام
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button type="button" class="saasable-mobile-toggle" aria-label="منوی ناوبری" id="saasable-mobile-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div id="saasable-mobile-menu" class="saasable-mobile-drawer">
+        <ul class="saasable-mobile-list">
+          <li><a href="#hero" class="saasable-mobile-link active">صفحه اصلی</a></li>
+          <li><a href="#at-a-glance" class="saasable-mobile-link">در یک نگاه</a></li>
+          <li><a href="#ecosystem" class="saasable-mobile-link">اکوسیستم</a></li>
+          <li><a href="#assignments" class="saasable-mobile-link">آموزش هوشمند</a></li>
+          <li><a href="#workspace" class="saasable-mobile-link">مدیریت هوشمند</a></li>
+          <li><a href="#testimonials" class="saasable-mobile-link">روایت شما</a></li>
+          <li><a href="#faq" class="saasable-mobile-link">سوالات پرتکرار</a></li>
+        </ul>
+        <div class="saasable-mobile-actions">
+          <a href="#workspace" class="saasable-btn-demo" style="flex: 1; text-align: center;">مشاهده دمو</a>
+          <a href="#" class="saasable-btn-buynow open-login-trigger" style="flex: 1; text-align: center;">ورود / ثبت‌نام</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (Pixel-Perfect Recreation from Provided Image) -->
+  <section id="hero" class="hero-sec invest-hero-sec" dir="rtl">
+    <!-- Animated Concentric Background Rings that pulse with Teachersho Blue -->
+    <div class="invest-circles-bg" aria-hidden="true">
+      <svg class="invest-rings-svg" viewBox="0 0 1200 1200" fill="none">
+        <circle class="ring-pulse ring-1" cx="400" cy="580" r="160" />
+        <circle class="ring-pulse ring-2" cx="400" cy="580" r="280" />
+        <circle class="ring-pulse ring-3" cx="400" cy="580" r="410" />
+        <circle class="ring-pulse ring-4" cx="400" cy="580" r="540" />
+        <circle class="ring-pulse ring-5" cx="400" cy="580" r="680" />
+      </svg>
+    </div>
+
+    <div class="container invest-hero-container">
+      <div class="invest-hero-grid">
+        <!-- Right Column (in RTL): Persian Content & Badges -->
+        <div class="invest-hero-content">
+          <!-- Hero Section Tag Badge -->
+          <div class="hero-top-badge-wrap" style="margin-bottom: 1.25rem;">
+            <span class="badge badge-primary"><span class="badge-dot"></span>پلتفرم جامع مدیریت و اتوماسیون مدارس</span>
+          </div>
+
+          <h1 class="invest-h1">
+            مدیریت هوشمند مدارس با <span class="teachersho-brand-accent">تیچرشو</span>
+          </h1>
+
+          <p class="invest-desc">
+            یکپارچه‌سازی کامل برنامه هفتگی هوشمند، بوفه آنلاین، حسابداری شهریه و صدور کارنامه‌های تحلیلی در پلتفرمی مدرن، سریع و دقیق.
+          </p>
+
+          <!-- Buttons Group: ورود به فضای کاربری & مشاهده دموی زنده -->
+          <div class="invest-btn-group">
+            <a href="#workspace" class="btn-app-store" aria-label="ورود به فضای کاربری">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+                <polyline points="10 17 15 12 10 7"/>
+                <line x1="15" y1="12" x2="3" y2="12"/>
+              </svg>
+              <span>ورود به فضای کاربری</span>
+            </a>
+
+            <a href="#ecosystem" class="btn-watch-video" aria-label="مشاهده دموی زنده">
+              <span class="play-circle-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </span>
+              <span>مشاهده دموی زنده</span>
+            </a>
+          </div>
+
+          <!-- Neat Symmetrical Feature Badges Grid (Clean & Organized) -->
+          <div class="invest-featured-block">
+            <div class="hero-badges-grid" dir="rtl">
+              <!-- 1. برنامه هفتگی هوشمند -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="18" height="18" x="3" y="4" rx="2" ry="2"/>
+                    <line x1="16" x2="16" y1="2" y2="6"/>
+                    <line x1="8" x2="8" y1="2" y2="6"/>
+                    <line x1="3" x2="21" y1="10" y2="10"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">برنامه هفتگی هوشمند</span>
+              </div>
+
+              <!-- 2. تصحیح خودکار تکالیف -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 20h9"/>
+                    <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">تصحیح آنلاین تکالیف</span>
+              </div>
+
+              <!-- 3. مدیریت شهریه و اقساط -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="14" x="2" y="5" rx="2"/>
+                    <line x1="2" x2="22" y1="10" y2="10"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">مدیریت شهریه و اقساط</span>
+              </div>
+
+              <!-- 4. کارنامه تحلیلی جامع -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" x2="12" y1="20" y2="10"/>
+                    <line x1="18" x2="18" y1="20" y2="4"/>
+                    <line x1="6" x2="6" y1="20" y2="16"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">کارنامه تحلیلی جامع</span>
+              </div>
+
+              <!-- 5. بوفه الکترونیک مدرسه -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+                    <path d="M3 6h18"/>
+                    <path d="M16 10a4 4 0 0 1-8 0"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">بوفه الکترونیک مدرسه</span>
+              </div>
+
+              <!-- 6. پرتال اختصاصی اولیاء -->
+              <div class="hero-feature-pill">
+                <span class="hero-pill-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                    <circle cx="9" cy="7" r="4"/>
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                  </svg>
+                </span>
+                <span class="hero-pill-text">پرتال ارتباط با اولیاء</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left Column (in RTL): Premium iPhone Frame with Real-Time Animated Chart -->
+        <div class="invest-hero-phone-col" dir="ltr">
+          <div class="iphone-mockup-wrap">
+            <div class="iphone-bezel">
+              <!-- Side Hardware Buttons -->
+              <div class="iphone-button vol-up"></div>
+              <div class="iphone-button vol-down"></div>
+              <div class="iphone-button power-btn"></div>
+
+              <!-- Phone Screen -->
+              <div class="iphone-screen">
+                <!-- Top Notch / Dynamic Island Bar -->
+                <div class="iphone-notch-bar">
+                  <div class="iphone-notch">
+                    <span class="speaker-pill"></span>
+                    <span class="camera-lens"></span>
+                  </div>
+                </div>
+
+                <!-- App Top Bar (School Brand & Status) -->
+                <div class="pocket-app-nav" dir="rtl">
+                  <div class="pocket-app-brand">
+                    <div class="pocket-brand-logo">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="10" stroke="#38bdf8" stroke-width="3.5" stroke-dasharray="45 15"/>
+                      </svg>
+                    </div>
+                    <span class="pocket-brand-text">تیچرشو • اپلیکیشن مدرسه</span>
+                  </div>
+
+                  <button type="button" class="pocket-nav-icon" aria-label="پروفایل کاربری">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- Stock / Academic Metric Header Information Card -->
+                <div class="pocket-stock-header">
+                  <div class="stock-ticker-row">
+                    <span class="stock-name">دبیرستان سعدی</span>
+                    <span class="stock-symbol">پایش پایه دهم تا دوازدهم</span>
+                    <span class="school-live-tag">
+                      <span class="badge-dot" style="background:#059669; width:5px; height:5px;"></span>
+                      آنلاین
+                    </span>
+                  </div>
+
+                  <!-- Big Metric and Live Gain Badge -->
+                  <div class="stock-price-row">
+                    <div class="stock-price-val">
+                      <span id="live-stock-price">۱۹.۴۵</span>
+                      <span class="stock-currency">معدل تراز مدرسه</span>
+                    </div>
+                    <div id="live-stock-badge" class="stock-change-pill">▲ +۱.۸۵ رشد</div>
+                  </div>
+
+                  <!-- Timeframe Pills Tabs (Persian Academic Periods) -->
+                  <div class="timeframe-tabs-row">
+                    <button class="tf-tab active">امروز</button>
+                    <button class="tf-tab">هفتگی</button>
+                    <button class="tf-tab">ماهانه</button>
+                    <button class="tf-tab">ترم ۱</button>
+                    <button class="tf-tab">ترم ۲</button>
+                    <button class="tf-tab">سالانه</button>
+                  </div>
+                </div>
+
+                <!-- Live Motion Dynamic Interactive Chart Canvas Container -->
+                <div class="pocket-chart-container">
+                  <svg id="pocket-motion-chart" class="pocket-chart-svg" viewBox="0 0 340 180" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="pocketAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.38"/>
+                        <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0"/>
+                      </linearGradient>
+                    </defs>
+                    <!-- Filled Gradient Area Under Dynamic Line -->
+                    <path id="pocket-area-path" class="pocket-area-fill" fill="url(#pocketAreaGrad)" d="" />
+                    <!-- Continuous Animated Line Curve -->
+                    <path id="pocket-line-path" class="pocket-line-stroke" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="" />
+                    <!-- Dynamic Live Indicator Dot -->
+                    <circle id="pocket-live-dot" class="pocket-chart-dot" cx="330" cy="90" r="4.5" fill="#0284c7" stroke="#ffffff" stroke-width="2"/>
+                  </svg>
+                </div>
+
+                <!-- Bottom Action & Meta Values -->
+                <div class="pocket-app-footer">
+                  <button type="button" class="pocket-trade-btn open-login-trigger">
+                    <span>ورود به کارتابل کلاسی و نمرات</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                      <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                  </button>
+
+                  <div class="pocket-stat-grid">
+                    <div class="pocket-stat-item">
+                      <span class="p-stat-lbl">حضور و غیاب امروز:</span>
+                      <span class="p-stat-val">۹۹.۴٪ حاضر</span>
+                    </div>
+                    <div class="pocket-stat-item">
+                      <span class="p-stat-lbl">تکالیف بررسی‌شده:</span>
+                      <span class="p-stat-val">۳۴۲ برگه</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Command Center Dashboard Section (در یک نگاه) -->
+  <section id="at-a-glance" class="command-center-section" aria-label="مرکز فرماندهی هوشمند تیچرشو">
+    <div class="container">
+      <!-- Section Header with Badge: تیچرشو در یک نگاه -->
+      <div class="sec-head text-center" style="margin-bottom: 2.25rem;">
+        <span class="badge badge-primary"><span class="badge-dot"></span>تیچرشو در یک نگاه</span>
+        <h2 class="sec-title">مرکز فرماندهی و پایش یکپارچه مدرسه</h2>
+        <p class="sec-desc">پایش زنده وضعیت انضباطی، مالی، آموزشی و ارتباط با اولیاء در یک رابط کاربری مدرن و واکنش‌گرا</p>
+      </div>
+
+      <div class="command-center-frame-wrapper">
+        <!-- Floating Pill Badges (Positioned around the card with subtle floating motion) -->
+        <div class="dash-float-pill pill-top-right">
+          <span class="pill-dot dot-emerald"></span>
+          <span class="pill-sparkle">✨</span>
+          <span class="pill-text">تصحیح هوشمند ۵ ثانیه‌ای</span>
+        </div>
+
+        <div class="dash-float-pill pill-top-left">
+          <span class="pill-dot dot-blue"></span>
+          <span class="pill-icon">💬</span>
+          <span class="pill-text">پیامک خودکار اقساط شهریه</span>
+        </div>
+
+        <div class="dash-float-pill pill-bottom-right">
+          <span class="pill-icon-lightning">⚡</span>
+          <div class="pill-stack">
+            <span class="pill-title">برنامه هفتگی آماده شد</span>
+            <span class="pill-sub">صفر درصد تداخل دبیران</span>
+          </div>
+        </div>
+
+        <div class="dash-float-pill pill-bottom-left">
+          <div class="pill-icon-box bg-purple-soft">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 20V10M18 20V4M6 20v-4"/>
+            </svg>
+          </div>
+          <div class="pill-stack">
+            <span class="pill-title">صدور تحلیلی کارنامه</span>
+            <span class="pill-sub">ارسال مستقیم به اولیاء</span>
+          </div>
+        </div>
+
+        <!-- Main Window Container -->
+        <div class="dash-main-window">
+          <!-- Window Header / Browser Bar -->
+          <div class="dash-window-header">
+            <!-- Left Search Input -->
+            <div class="dash-search-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2.2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+              <input type="text" placeholder="جستجوی هوشمند..." readonly />
+            </div>
+
+            <!-- Center Brand Title -->
+            <div class="dash-center-title">
+              <span class="dash-status-dot"></span>
+              <span>مرکز فرماندهی هوشمند مدرسه | تیچرشو ۴.۲</span>
+            </div>
+
+            <!-- Right Traffic Window Buttons -->
+            <div class="dash-window-controls">
+              <span class="win-btn win-close"></span>
+              <span class="win-btn win-min"></span>
+              <span class="win-btn win-max"></span>
+            </div>
+          </div>
+
+          <!-- Window Inner Grid (3 Columns) -->
+          <div class="dash-window-body">
+            <!-- Col 1: رویدادهای زنده سیستم -->
+            <div class="dash-col dash-events-col">
+              <div class="dash-col-head">
+                <div class="col-head-icon bg-amber-soft">
+                  <span class="bell-shake-icon">🔔</span>
+                </div>
+                <div class="col-head-text">
+                  <h3 class="col-head-title">رویدادهای زنده سیستم</h3>
+                  <span class="col-head-sub">عملیات خودکار هوشمند</span>
+                </div>
+              </div>
+
+              <div class="dash-events-list">
+                <!-- Item 1 -->
+                <div class="dash-event-card">
+                  <div class="event-info">
+                    <span class="event-title">پیامک شهریه ارسال شد</span>
+                    <span class="event-time">هم‌اکنون | پایه دوازدهم</span>
+                  </div>
+                  <span class="event-status-dot dot-emerald"></span>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="dash-event-card">
+                  <div class="event-info">
+                    <span class="event-title">تصحیح آنلاین ۲۸ تکلیف</span>
+                    <span class="event-time">۲ دقیقه قبل | کلاس ۱۰۱</span>
+                  </div>
+                  <span class="event-status-dot dot-blue"></span>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="dash-event-card">
+                  <div class="event-info">
+                    <span class="event-title">صدور کارنامه ماهانه PDF</span>
+                    <span class="event-time">۵ دقیقه قبل | پایه یازدهم</span>
+                  </div>
+                  <span class="event-status-dot dot-purple"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col 2: تحلیل آماری لحظه‌ای -->
+            <div class="dash-col dash-chart-col">
+              <div class="dash-col-head justify-between">
+                <div class="dash-badge-pct">۹۸.۸%+</div>
+                <div class="col-head-inline">
+                  <div class="col-head-text text-right">
+                    <h3 class="col-head-title">تحلیل آماری لحظه‌ای</h3>
+                    <span class="col-head-sub">میزان پیشرفت و میانگین نمرات</span>
+                  </div>
+                  <div class="col-head-icon bg-indigo-soft">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.2">
+                      <rect x="3" y="3" width="18" height="18" rx="3"/>
+                      <path d="M7 16l4-4 4 4 6-7"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Smooth Wave Chart Box -->
+              <div class="dash-chart-card">
+                <div class="chart-tag-badge">
+                  <span>ریاضی: ۱۹.۵</span>
+                </div>
+                <svg class="dash-wave-svg" viewBox="0 0 400 130" fill="none" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="dashWaveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+                      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.01" />
+                    </linearGradient>
+                    <linearGradient id="dashLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#38bdf8" />
+                      <stop offset="50%" stop-color="#3b82f6" />
+                      <stop offset="100%" stop-color="#8b5cf6" />
+                    </linearGradient>
+                  </defs>
+                  <!-- Smooth undulating path -->
+                  <path id="dash-wave-area" fill="url(#dashWaveGrad)" d="M0,85 C60,40 120,110 180,65 C240,20 300,75 360,55 C380,48 400,52 400,52 L400,130 L0,130 Z" />
+                  <path id="dash-wave-line" stroke="url(#dashLineGrad)" stroke-width="3.5" stroke-linecap="round" d="M0,85 C60,40 120,110 180,65 C240,20 300,75 360,55 C380,48 400,52 400,52" />
+                  
+                  <!-- Pulsing markers matching image -->
+                  <circle cx="180" cy="65" r="4.5" fill="#3b82f6" stroke="#ffffff" stroke-width="2" class="dash-chart-marker" />
+                  <circle cx="330" cy="55" r="5" fill="#8b5cf6" stroke="#ffffff" stroke-width="2.5" class="dash-chart-marker" />
+                </svg>
+              </div>
+
+              <!-- Bottom Stats Row -->
+              <div class="dash-stats-row">
+                <div class="dash-stat-block">
+                  <div class="dash-stat-num">+۴۵۰</div>
+                  <div class="dash-stat-label">مدرسه ممتاز</div>
+                </div>
+                <div class="dash-stat-divider"></div>
+                <div class="dash-stat-block">
+                  <div class="dash-stat-num">+۱۲۵,۰۰۰</div>
+                  <div class="dash-stat-label">دانش‌آموز فعال</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Col 3: برنامه‌ریزی هوشمند -->
+            <div class="dash-col dash-sched-col">
+              <div class="dash-col-head">
+                <div class="col-head-icon bg-orange-soft">
+                  <span class="bolt-icon">⚡</span>
+                </div>
+                <div class="col-head-text">
+                  <h3 class="col-head-title">برنامه‌ریزی هوشمند</h3>
+                  <span class="col-head-sub">تولید الگوریتمی بدون تداخل</span>
+                </div>
+              </div>
+
+              <div class="dash-subjects-list">
+                <div class="dash-subject-card card-blue-border">
+                  <span class="subj-name">ریاضی ۳</span>
+                  <span class="subj-teacher">استاد رضایی</span>
+                </div>
+                <div class="dash-subject-card card-purple-border">
+                  <span class="subj-name">فیزیک ۲</span>
+                  <span class="subj-teacher">دکتر علوی</span>
+                </div>
+                <div class="dash-subject-card card-emerald-border">
+                  <span class="subj-name">شیمی ۱</span>
+                  <span class="subj-teacher">استاد محمدی</span>
+                </div>
+                <div class="dash-subject-banner">
+                  <span>آماده بدون تداخل دبیران</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ecosystem Section (Redesigned matching Screenshot with 6 UI Wireframe Cards & Staggered Text Upward Animation) -->
+  <section id="ecosystem" class="eco-showcase-section" style="padding: 5rem 0 6rem 0;">
+    <div class="container">
+      <div class="sec-head" style="margin-bottom: 3.5rem;">
+        <span class="badge badge-primary"><span class="badge-dot"></span>معماری یکپارچه و ماژولار</span>
+        <h2 class="sec-title">اکوسیستم جامع ماژول‌های تیچرشو</h2>
+        <p class="sec-desc">طراحی منسجم با بیش از ۸۰ نمای اختصاصی برای تمامی بخش‌های پرتال هوشمند مدرسه</p>
+      </div>
+
+      <!-- 6 Wireframe Feature Cards Grid matching Screenshot -->
+      <div class="eco-grid-cards">
+        <!-- Card 1: تحلیل هوشمند (عکس اول) -->
+        <div class="eco-feature-card anim-from-left" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 1 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">گزارش عملکرد آموزشی و نمرات</span>
+            </div>
+            <div class="eco-crop-body">
+              <div class="crop-rep-layout">
+                <!-- Main report modules list -->
+                <div class="crop-rep-main">
+                  <div class="crop-rep-item">
+                    <div class="crop-rep-left">
+                      <div class="crop-rep-icon blue">🎓</div>
+                      <div class="crop-rep-titles">
+                        <span class="crop-rep-t1">گزارش عملکرد آموزشی</span>
+                        <span class="crop-rep-t2">نمرات، انضباط و غیبت‌ها</span>
+                      </div>
+                    </div>
+                    <span class="crop-rep-arrow">⌄</span>
+                  </div>
+                  <div class="crop-rep-item">
+                    <div class="crop-rep-left">
+                      <div class="crop-rep-icon indigo">🏫</div>
+                      <div class="crop-rep-titles">
+                        <span class="crop-rep-t1">گزارش کلی مدرسه</span>
+                        <span class="crop-rep-t2">شاخص‌های کلیدی مدرسه</span>
+                      </div>
+                    </div>
+                    <span class="crop-rep-arrow">←</span>
+                  </div>
+                  <div class="crop-rep-item">
+                    <div class="crop-rep-left">
+                      <div class="crop-rep-icon sky">📄</div>
+                      <div class="crop-rep-titles">
+                        <span class="crop-rep-t1">میانگین نمرات</span>
+                        <span class="crop-rep-t2">میانگین دروس در دوره</span>
+                      </div>
+                    </div>
+                    <span class="crop-rep-arrow">⌄</span>
+                  </div>
+                  <div class="crop-rep-item">
+                    <div class="crop-rep-left">
+                      <div class="crop-rep-icon amber">⭐</div>
+                      <div class="crop-rep-titles">
+                        <span class="crop-rep-t1">درصد قبولی</span>
+                        <span class="crop-rep-t2">مقایسه قبولی دروس</span>
+                      </div>
+                    </div>
+                    <span class="crop-rep-arrow">⌄</span>
+                  </div>
+                  <div class="crop-rep-item">
+                    <div class="crop-rep-left">
+                      <div class="crop-rep-icon emerald">📊</div>
+                      <div class="crop-rep-titles">
+                        <span class="crop-rep-t1">ماتریس و پراکندگی نمرات</span>
+                        <span class="crop-rep-t2">تعداد در بازه‌های نمره</span>
+                      </div>
+                    </div>
+                    <span class="crop-rep-arrow">⌄</span>
+                  </div>
+                </div>
+                <!-- Right filter sidebar -->
+                <div class="crop-rep-side">
+                  <div class="crop-side-head">📅 دوره</div>
+                  <span class="crop-side-check">✓ انتخاب همه</span>
+                  <span class="crop-side-check">✓ هفته اول شهریور</span>
+                  <div class="crop-side-head" style="margin-top: 4px;">🗂️ کلاس</div>
+                  <span class="crop-side-check">✓ دهم ریاضی</span>
+                  <span class="crop-side-check">دهم تجربی</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">تحلیل هوشمند</h3>
+            <p class="eco-wire-sub">۱۷ مدل تحلیل و آنالیز هوشمند</p>
+          </div>
+        </div>
+
+        <!-- Card 2: برنامه هفتگی (عکس دوم) -->
+        <div class="eco-feature-card anim-from-top" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 2 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">تولید برنامه هفتگی هوشمند</span>
+            </div>
+            <div class="eco-crop-body">
+              <!-- Top action & badges -->
+              <div class="crop-sched-top">
+                <span class="crop-sched-btn">⚡ تولید برنامه خودکار</span>
+                <span style="font-size: 0.52rem; color: #64748b; font-weight: 700;">۲۸ دبیر | ۹ کلاس</span>
+              </div>
+              <!-- Stat metric cards -->
+              <div class="crop-sched-stats">
+                <div class="crop-stat-box">
+                  <div class="crop-stat-val">۹</div>
+                  <div class="crop-stat-lbl">کل کلاس‌ها</div>
+                </div>
+                <div class="crop-stat-box">
+                  <div class="crop-stat-val">۲۸</div>
+                  <div class="crop-stat-lbl">کل دبیران</div>
+                </div>
+                <div class="crop-stat-box">
+                  <div class="crop-stat-val">۲۷</div>
+                  <div class="crop-stat-lbl">دارای تخصیص</div>
+                </div>
+                <div class="crop-stat-box">
+                  <div class="crop-stat-val">۲۲۹</div>
+                  <div class="crop-stat-lbl">ساعت شاغلین</div>
+                </div>
+              </div>
+              <!-- Weekly Schedule Grid -->
+              <div class="crop-sched-table">
+                <div class="crop-sched-row" style="border-bottom: 1px solid #f1f5f9; padding-bottom: 2px;">
+                  <span style="font-size: 0.5rem; color: #94a3b8; font-weight: 800;">روز / زنگ</span>
+                  <span style="font-size: 0.48rem; color: #64748b; font-weight: 700;">زنگ ۱ (۸-۹:۳۰)</span>
+                  <span style="font-size: 0.48rem; color: #64748b; font-weight: 700;">زنگ ۲ (۹:۴۰-۱۱)</span>
+                  <span style="font-size: 0.48rem; color: #64748b; font-weight: 700;">زنگ ۳ (۱۱:۲۰-۱۲)</span>
+                </div>
+                <div class="crop-sched-row">
+                  <span class="crop-sched-day">شنبه</span>
+                  <span class="crop-sched-slot active">حسابان (۱۰۱)</span>
+                  <span class="crop-sched-slot">فیزیک (۱۰۲)</span>
+                  <span class="crop-sched-slot active">شیمی (۱۰۱)</span>
+                </div>
+                <div class="crop-sched-row">
+                  <span class="crop-sched-day">یکشنبه</span>
+                  <span class="crop-sched-slot">هندسه (۱۰۲)</span>
+                  <span class="crop-sched-slot active">زبان (۱۰۱)</span>
+                  <span class="crop-sched-slot">زیست (۱۰۳)</span>
+                </div>
+                <div class="crop-sched-row">
+                  <span class="crop-sched-day">دوشنبه</span>
+                  <span class="crop-sched-slot active">ادبیات (۱۰۱)</span>
+                  <span class="crop-sched-slot active">دینی (۱۰۱)</span>
+                  <span class="crop-sched-slot">ورزش</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">برنامه هفتگی</h3>
+            <p class="eco-wire-sub">ساخت خودکار برنامه هفتگی</p>
+          </div>
+        </div>
+
+        <!-- Card 3: دفتر انضباطی (عکس سوم) -->
+        <div class="eco-feature-card anim-from-right" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 3 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">دفتر انضباطی و پیامک اولیا</span>
+            </div>
+            <div class="eco-crop-body">
+              <!-- Top stats banner -->
+              <div class="crop-disc-stats">
+                <div class="crop-disc-stat blue">
+                  <div class="crop-disc-val">۳۰</div>
+                  <div class="crop-disc-lbl">کل موارد</div>
+                </div>
+                <div class="crop-disc-stat red">
+                  <div class="crop-disc-val">۹</div>
+                  <div class="crop-disc-lbl">تخلف</div>
+                </div>
+                <div class="crop-disc-stat amber">
+                  <div class="crop-disc-val">۶</div>
+                  <div class="crop-disc-lbl">اخطار</div>
+                </div>
+                <div class="crop-disc-stat emerald">
+                  <div class="crop-disc-val">۶</div>
+                  <div class="crop-disc-lbl">تشویق</div>
+                </div>
+              </div>
+              <!-- Student Disciplinary Cards -->
+              <div class="crop-disc-cards">
+                <div class="crop-disc-card border-red">
+                  <div class="crop-disc-chead">
+                    <span class="crop-disc-title">اخطار جدی انضباطی</span>
+                    <span class="crop-disc-tag red">اخطار زیاد</span>
+                  </div>
+                  <div class="crop-disc-cfoot">
+                    <span class="crop-disc-student">دانش‌آموز: کیان تستی</span>
+                    <span style="color: #2563eb; font-weight: 700;">✉️ پیامک ارسال شد</span>
+                  </div>
+                </div>
+                <div class="crop-disc-card border-amber">
+                  <div class="crop-disc-chead">
+                    <span class="crop-disc-title">تأخیر زنگ اول</span>
+                    <span class="crop-disc-tag amber">تأخیر کم</span>
+                  </div>
+                  <div class="crop-disc-cfoot">
+                    <span class="crop-disc-student">دانش‌آموز: نیما نمونه</span>
+                    <span style="color: #2563eb; font-weight: 700;">✉️ پیامک ارسال شد</span>
+                  </div>
+                </div>
+                <div class="crop-disc-card border-emerald">
+                  <div class="crop-disc-chead">
+                    <span class="crop-disc-title">معدل برتر و تشویق کلاسی</span>
+                    <span class="crop-disc-tag emerald">تشویق</span>
+                  </div>
+                  <div class="crop-disc-cfoot">
+                    <span class="crop-disc-student">دانش‌آموز: آرمین تستی</span>
+                    <span style="color: #059669; font-weight: 700;">ثبت در پرونده</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">دفتر انضباطی</h3>
+            <p class="eco-wire-sub">با قابلیت ارسال خودکار غیبت و تاخیر</p>
+          </div>
+        </div>
+
+        <!-- Card 4: بوفه آنلاین (عکس چهارم) -->
+        <div class="eco-feature-card anim-from-left" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 4 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">بوفه آنلاین و تغذیه سلامت</span>
+            </div>
+            <div class="eco-crop-body">
+              <!-- Top bar -->
+              <div class="crop-buf-head">
+                <span class="crop-buf-title">محصولات بوفه مدرسه</span>
+                <span class="crop-buf-badge">فروش امروز: ۳۳۱,۰۰۰ ت</span>
+              </div>
+              <!-- Product Food Grid (4 Items matching Screenshot) -->
+              <div class="crop-buf-grid">
+                <!-- Food 1: ساندویچ فیله مرغ -->
+                <div class="crop-food-card">
+                  <div class="crop-food-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=200&auto=format&fit=crop&q=80" alt="ساندویچ فیله مرغ ویژه" class="crop-food-img" referrerPolicy="no-referrer" />
+                    <span class="crop-food-badge instock">موجود</span>
+                  </div>
+                  <div class="crop-food-info">
+                    <span class="crop-food-name">ساندویچ فیله مرغ ویژه</span>
+                    <span class="crop-food-price">۵۸,۰۰۰ تومان</span>
+                  </div>
+                </div>
+                <!-- Food 2: آبمیوه پرتقال -->
+                <div class="crop-food-card">
+                  <div class="crop-food-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1613478223719-2ab802602423?w=200&auto=format&fit=crop&q=80" alt="آبمیوه طبیعی پرتقال" class="crop-food-img" referrerPolicy="no-referrer" />
+                    <span class="crop-food-badge low">رو به اتمام</span>
+                  </div>
+                  <div class="crop-food-info">
+                    <span class="crop-food-name">آبمیوه پرتقال ۵۰۰cc</span>
+                    <span class="crop-food-price">۳۰,۰۰۰ تومان</span>
+                  </div>
+                </div>
+                <!-- Food 3: عدسی گرم -->
+                <div class="crop-food-card">
+                  <div class="crop-food-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=200&auto=format&fit=crop&q=80" alt="عدسی گرم با نان سنگک" class="crop-food-img" referrerPolicy="no-referrer" />
+                    <span class="crop-food-badge instock">موجود</span>
+                  </div>
+                  <div class="crop-food-info">
+                    <span class="crop-food-name">عدسی گرم با نان سنگک</span>
+                    <span class="crop-food-price">۴۰,۰۰۰ تومان</span>
+                  </div>
+                </div>
+                <!-- Food 4: شیرکاکائو -->
+                <div class="crop-food-card">
+                  <div class="crop-food-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=200&auto=format&fit=crop&q=80" alt="شیرکاکائو پاکتی" class="crop-food-img" referrerPolicy="no-referrer" />
+                    <span class="crop-food-badge" style="color: #dc2626;">اتمام</span>
+                  </div>
+                  <div class="crop-food-info">
+                    <span class="crop-food-name">شیرکاکائو کم‌چرب پاکتی</span>
+                    <span class="crop-food-price">۲۲,۰۰۰ تومان</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">بوفه آنلاین</h3>
+            <p class="eco-wire-sub">خرید آنلاین از بوفه مدرسه</p>
+          </div>
+        </div>
+
+        <!-- Card 5: صدور گواهی و لوح تقدیر (عکس پنجم) -->
+        <div class="eco-feature-card anim-from-bottom" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 5 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">سامانه صدور گواهی رسمی A4</span>
+            </div>
+            <div class="eco-crop-body">
+              <div class="crop-cert-wrap">
+                <!-- A4 Official Certificate Preview matching Screenshot -->
+                <div class="crop-cert-doc">
+                  <div class="crop-cert-hgroup">
+                    <div class="crop-cert-gov">جمهوری اسلامی ایران - وزارت آموزش و پرورش</div>
+                    <div class="crop-cert-sch">دبیرستان پسرانه هیأت امنایی سعدی</div>
+                  </div>
+                  <div class="crop-cert-titlebox">گواهی اشتغال به تحصیل</div>
+                  <div class="crop-cert-bodytext">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="عکس دانش‌آموز" class="crop-cert-avatar" referrerPolicy="no-referrer" />
+                    <p class="crop-cert-p">
+                      بدین‌وسیله گواهی می‌شود دانش‌آموز <strong>«امیرعلی عباسی»</strong> فرزند محمد در پایه دهم رشته علوم تجربی در این دبیرستان اشتغال به تحصیل دارد.
+                    </p>
+                  </div>
+                  <div class="crop-cert-stamp">مهر مدرسه</div>
+                </div>
+                <!-- Right steps sidebar -->
+                <div class="crop-cert-side">
+                  <div style="font-size: 0.52rem; font-weight: 800; color: #1e293b;">نوع سند:</div>
+                  <div class="crop-cert-step active">🎓 اشتغال به تحصیل</div>
+                  <div class="crop-cert-step">🛡️ معافیت نظام وظیفه</div>
+                  <div class="crop-cert-step">🏆 معرفی‌نامه رتبه</div>
+                  <div class="crop-cert-step">📝 تاییدیه نمرات</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">صدور گواهی و لوح تقدیر</h3>
+            <p class="eco-wire-sub">با قابلیت اندیکاتور خودکار</p>
+          </div>
+        </div>
+
+        <!-- Card 6: مدیریت تکالیف (عکس ششم) -->
+        <div class="eco-feature-card anim-from-right" data-scroll-anim>
+          <div class="eco-card-blueprint-bg"></div>
+          <!-- Miniature Browser Window Mockup with Cropped Screenshot 6 -->
+          <div class="eco-wire-window">
+            <div class="wire-window-head">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="wire-window-title">سامانه مدیریت و تصحیح تکالیف</span>
+            </div>
+            <div class="eco-crop-body">
+              <!-- Top bar -->
+              <div class="crop-hw-top">
+                <span style="font-size: 0.58rem; font-weight: 800; color: #0f172a;">تمرین‌ها و تکالیف فعال</span>
+                <div class="crop-hw-stats">
+                  <span class="crop-hw-pill">۴ فعال</span>
+                  <span class="crop-hw-pill">۵۱ تصحیح</span>
+                </div>
+              </div>
+              <!-- Homework cards list -->
+              <div class="crop-hw-cards">
+                <!-- Homework 1 -->
+                <div class="crop-hw-card">
+                  <div class="crop-hw-chead">
+                    <span class="crop-hw-title">حل تمرین‌های جامع کاربرد مشتق</span>
+                    <span class="crop-hw-subtag">حسابان ۲</span>
+                  </div>
+                  <div class="crop-hw-progress">
+                    <div class="crop-hw-bar" style="width: 88%;"></div>
+                  </div>
+                  <div class="crop-hw-meta">
+                    <span>تحویل: ۲۸ از ۳۲ دانش‌آموز (۸۸٪)</span>
+                    <span style="color: #059669; font-weight: 800;">میانگین: ۱۸.۲۵</span>
+                  </div>
+                  <span class="crop-hw-btn">بررسی و تصحیح آنلاین</span>
+                </div>
+                <!-- Homework 2 -->
+                <div class="crop-hw-card">
+                  <div class="crop-hw-chead">
+                    <span class="crop-hw-title">پروژه مدل‌سازی مقاطع مخروطی</span>
+                    <span class="crop-hw-subtag" style="background: #fef3c7; color: #b45309;">هندسه ۳</span>
+                  </div>
+                  <div class="crop-hw-progress">
+                    <div class="crop-hw-bar" style="width: 66%; background: #f59e0b;"></div>
+                  </div>
+                  <div class="crop-hw-meta">
+                    <span>تحویل: ۴۱ از ۶۲ (۶۶٪)</span>
+                    <span style="color: #d97706; font-weight: 800;">میانگین: ۱۷.۸</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text block that animates from bottom to top AFTER card settles -->
+          <div class="eco-wire-text-wrap">
+            <svg class="eco-wire-wave" width="54" height="8" viewBox="0 0 54 8" fill="none">
+              <path d="M2 4 Q 8 0, 15 4 T 29 4 T 41 4 T 52 4" stroke="#7dd3fc" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <h3 class="eco-wire-title">مدیریت تکالیف</h3>
+            <p class="eco-wire-sub">تصحیح آنلاین تکالیف</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Header for Stats: تیچرشو همراه مدارس کشور -->
+      <div class="sec-head" style="margin-top: 5rem; margin-bottom: 2rem;">
+        <span class="badge badge-primary"><span class="badge-dot"></span>همراهی سراسری</span>
+        <h2 class="sec-title" style="font-size: 2rem; font-weight: 900; color: #0f172a;">تیچرشو همراه مدارس کشور</h2>
+      </div>
+
+      <!-- 4 Stats Showcase Cards Strip (Matching Screenshot 2026-09-15 220448) -->
+      <div class="eco-stats-strip" data-scroll-anim>
+        <!-- Card 1: مدارس فعال (Hours Saved) -->
+        <div class="eco-stat-card">
+          <div class="eco-stat-num">
+            <span class="eco-stat-val" data-counter="1200">۱۲۰۰</span>
+            <span class="eco-stat-plus">+</span>
+          </div>
+          <div class="eco-stat-label">مدارس فعال</div>
+        </div>
+
+        <!-- Card 2: معلمان فعال (Landing Demos) -->
+        <div class="eco-stat-card">
+          <div class="eco-stat-num">
+            <span class="eco-stat-val" data-counter="7">۷</span>
+            <span class="eco-stat-plus">+</span>
+          </div>
+          <div class="eco-stat-label">معلمان فعال</div>
+        </div>
+
+        <!-- Card 3: دانش آموزان فعال (Admin Pages) -->
+        <div class="eco-stat-card">
+          <div class="eco-stat-num">
+            <span class="eco-stat-val" data-counter="50">۵۰</span>
+            <span class="eco-stat-plus">+</span>
+          </div>
+          <div class="eco-stat-label">دانش آموزان فعال</div>
+        </div>
+
+        <!-- Card 4: میزان رضایت (Blocks - درصد) -->
+        <div class="eco-stat-card">
+          <div class="eco-stat-num">
+            <span class="eco-stat-val" data-counter="98">۹۸</span>
+            <span class="eco-stat-plus">٪</span>
+          </div>
+          <div class="eco-stat-label">میزان رضایت</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- SMART ASSIGNMENT WORKFLOW SECTION (چرخه هوشمند تکالیف - هماهنگ با طراحی مدرن سایر بخش‌ها) -->
+  <section id="assignments" class="assign-showcase-section" style="padding: 5rem 0 6rem 0; position: relative;">
+    <div class="container">
+      
+      <!-- Section Header (Matching Ecosystem & Workspace styles) -->
+      <div class="sec-head text-center" style="margin-bottom: 2.75rem;">
+        <span class="badge badge-primary"><span class="badge-dot"></span>آموزش هوشمند</span>
+        <h2 class="sec-title">چرخه هوشمند تکالیف؛ از تعریف تا تحلیل کارنامه</h2>
+        <p class="sec-desc">یک زنجیره خودکار و بدون کاغذ در مدرسه: تعریف سریع تکلیف توسط دبیر، اطلاع‌رسانی لحظه‌ای پیامکی، تصحیح برخط با قلم نوری و تحلیل هوشمند عملکرد دانش‌آموز.</p>
+      </div>
+
+      <!-- Top Phase Navigation Tabs Bar (Matching mui-top-tabs-bar) -->
+      <div class="assign-tabs-wrapper">
+        <div class="assign-top-tabs-bar" role="tablist">
+          <button class="assign-top-tab active" data-assign-step="1" role="tab" aria-selected="true">
+            <span class="assign-tab-num">۰۱</span>
+            <svg class="assign-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+              <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+            </svg>
+            <span>۱. تعریف و بارگذاری</span>
+          </button>
+
+          <button class="assign-top-tab" data-assign-step="2" role="tab" aria-selected="false">
+            <span class="assign-tab-num">۰۲</span>
+            <svg class="assign-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"/>
+            </svg>
+            <span>۲. اعلان و دریافت</span>
+          </button>
+
+          <button class="assign-top-tab" data-assign-step="3" role="tab" aria-selected="false">
+            <span class="assign-tab-num">۰۳</span>
+            <svg class="assign-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+              <path d="M2 2l7.586 7.586"/>
+              <circle cx="11" cy="11" r="2"/>
+            </svg>
+            <span>۳. تصحیح با قلم نوری</span>
+          </button>
+
+          <button class="assign-top-tab" data-assign-step="4" role="tab" aria-selected="false">
+            <span class="assign-tab-num">۰۴</span>
+            <svg class="assign-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="18" y1="20" x2="18" y2="10"/>
+              <line x1="12" y1="20" x2="12" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="14"/>
+            </svg>
+            <span>۴. نمره و تحلیل کارنامه</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Showcase Card (Matching mui-main-card aesthetic: 36px radius, soft background, 2-column grid) -->
+      <div class="assign-main-card">
+        
+        <!-- Right Column: Texts, Badge, Checkmarks, Actor Chips -->
+        <div class="assign-feature-content">
+          
+          <div class="assign-pill-badge-tag">
+            <span class="assign-pulse-dot"></span>
+            <span id="assign-step-badge">گام ۱ از ۴ • ماژول اختصاصی دبیران</span>
+          </div>
+
+          <h2 class="assign-feature-heading" id="assign-step-heading">تعریف آسان، پیوست فایل و تعیین هوشمند موعد تحویل</h2>
+          
+          <p class="assign-feature-desc" id="assign-step-desc">
+            معلم درس بدون فوت وقت، مبحث درسی را انتخاب کرده و با پیوست فایل صورت تمرین یا صوت راهنما، تکلیف را برای پایه‌ها و گروه‌های کلاسی دلخواه با موعد تحویل معین منتشر می‌کند.
+          </p>
+
+          <!-- 2x2 Feature Checklist with Verified Scalloped Badge Icons -->
+          <div class="assign-checklist-grid" id="assign-step-checklist">
+            <div class="assign-check-item">
+              <svg class="assign-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span id="assign-check-1">انتخاب پایه، رشته و کلاس‌های هدف</span>
+            </div>
+
+            <div class="assign-check-item">
+              <svg class="assign-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span id="assign-check-2">پیوست انواع فایل PDF، تصویر و صوت راهنما</span>
+            </div>
+
+            <div class="assign-check-item">
+              <svg class="assign-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span id="assign-check-3">تعیین مهلت مجاز تحویل با تایمر هوشمند</span>
+            </div>
+
+            <div class="assign-check-item">
+              <svg class="assign-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span id="assign-check-4">ثبت مستقیم در تقویم آموزشی و برنامه هفتگی</span>
+            </div>
+          </div>
+
+          <!-- Actor & Automation Chips -->
+          <div class="assign-actor-strip">
+            <div class="assign-actor-pill">
+              <span class="assign-actor-label">مسئول انجام:</span>
+              <strong class="assign-actor-val" id="assign-step-actor">معلم درس</strong>
+            </div>
+            <div class="assign-actor-pill pill-sys">
+              <span class="assign-actor-label">اتوماسیون:</span>
+              <strong class="assign-actor-val" id="assign-step-auto">ثبت در تقویم کلاسی</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left Column: Interactive Window Mockup Frame with Live Stage -->
+        <div class="assign-mockup-col">
+          <div class="assign-window-frame">
+            <div class="assign-window-topbar">
+              <div class="wire-dots-group">
+                <span class="wire-dot red"></span>
+                <span class="wire-dot yellow"></span>
+                <span class="wire-dot green"></span>
+              </div>
+              <span class="assign-window-title" id="assign-window-title">پرتال معلم • ثبت تکلیف جدید</span>
+              <span class="assign-live-badge">زنده</span>
+            </div>
+
+            <div class="assign-window-body" id="assign-window-canvas">
+              <!-- Initial Mockup for Step 1 -->
+              <div class="mockup-task-form">
+                <div class="m-form-header">
+                  <div class="m-form-title-wrap">
+                    <span class="m-form-badge">درس ریاضی و حسابان</span>
+                    <h4 class="m-form-title">تمرین کلاسی مبحث مشتق و دیفرانسیل</h4>
+                  </div>
+                  <span class="m-form-status-pill">پیش‌نویس آماده انتشار</span>
+                </div>
+                <div class="m-form-row">
+                  <div class="m-input-box">
+                    <span class="m-input-lbl">پایه و کلاس هدف</span>
+                    <div class="m-input-val">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                      <span>پایه دوازدهم ریاضی (کلاس ۱۰۱ و ۱۰۲)</span>
+                    </div>
+                  </div>
+                  <div class="m-input-box">
+                    <span class="m-input-lbl">موعد تحویل هوشمند</span>
+                    <div class="m-input-val text-blue">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                      <span>شنبه ۲۵ بهمن • ساعت ۲۰:۰۰</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="m-attach-card">
+                  <div class="m-attach-icon red-pdf">PDF</div>
+                  <div class="m-attach-info">
+                    <span class="m-attach-name">کاربرگ_تمرین_هفته_چهارم.pdf</span>
+                    <span class="m-attach-meta">۲.۴ مگابایت • ۴ صفحه سوال تشریحی</span>
+                  </div>
+                  <span class="m-attach-check">پیوست شد ✓</span>
+                </div>
+                <div class="m-form-footer">
+                  <div class="m-auto-hint">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>تنظیم خودکار یادآوری ۲۴ ساعت قبل از موعد</span>
+                  </div>
+                  <button class="m-publish-btn" type="button">انتشار آنی در پرتال</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 4 Connected Milestone Flow Cards (Matching ecosystem cards aesthetic) -->
+      <div class="assign-milestones-row">
+        <!-- Milestone 1 -->
+        <div class="assign-milestone-card active" data-assign-step="1">
+          <div class="assign-m-header">
+            <span class="assign-m-num">۰۱</span>
+            <span class="assign-m-role-badge">نقش معلم</span>
+          </div>
+          <h4 class="assign-m-title">تعریف و بارگذاری</h4>
+          <p class="assign-m-desc">انتخاب مبحث درسی، بارگذاری صورت تمرین و تعیین مهلت مجاز تحویل</p>
+          <div class="assign-m-footer">
+            <span class="assign-m-action">مشاهده این مرحله ←</span>
+          </div>
+        </div>
+
+        <!-- Milestone 2 -->
+        <div class="assign-milestone-card" data-assign-step="2">
+          <div class="assign-m-header">
+            <span class="assign-m-num">۰۲</span>
+            <span class="assign-m-role-badge">اتوماسیون پیامکی</span>
+          </div>
+          <h4 class="assign-m-title">اعلان و دریافت دانش‌آموز</h4>
+          <p class="assign-m-desc">ارسال خودکار پیامک به اولیاء و نوتیفیکیشن اختصاصی در پنل دانش‌آموز</p>
+          <div class="assign-m-footer">
+            <span class="assign-m-action">مشاهده این مرحله ←</span>
+          </div>
+        </div>
+
+        <!-- Milestone 3 -->
+        <div class="assign-milestone-card" data-assign-step="3">
+          <div class="assign-m-header">
+            <span class="assign-m-num">۰۳</span>
+            <span class="assign-m-role-badge">قلم نوری معلم</span>
+          </div>
+          <h4 class="assign-m-title">ارسال پاسخ و تصحیح آنلاین</h4>
+          <p class="assign-m-desc">عکس‌برداری و آپلود برگه توسط دانش‌آموز و تصحیح دیجیتال توسط معلم</p>
+          <div class="assign-m-footer">
+            <span class="assign-m-action">مشاهده این مرحله ←</span>
+          </div>
+        </div>
+
+        <!-- Milestone 4 -->
+        <div class="assign-milestone-card" data-assign-step="4">
+          <div class="assign-m-header">
+            <span class="assign-m-num">۰۴</span>
+            <span class="assign-m-role-badge">هوش مصنوعی و کارنامه</span>
+          </div>
+          <h4 class="assign-m-title">نمره‌دهی و تحلیل رشد</h4>
+          <p class="assign-m-desc">درج اتوماتیک در دفتر کلاسی و تولید نمودار مقایسه‌ای نقاط قوت و ضعف</p>
+          <div class="assign-m-footer">
+            <span class="assign-m-action">مشاهده این مرحله ←</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+
+
+      <!-- MATERIAL UI POWERED ADMIN SHOWCASE SECTION (Matching Screenshot 2026-09-15 220512) -->
+    <!-- DYNAMIC SHOWCASE SECTION (RTL Persian with 3 Stacked Cards & Staggered Bottom-Right Entrance) -->
+  <section id="workspace" class="mui-showcase-section" style="padding: 5rem 0 6rem 0;">
+    <div class="container">
+      
+      <!-- Section Header with Badge: مدیریت هوشمند -->
+      <div class="sec-head text-center" style="margin-bottom: 2.75rem;">
+        <span class="badge badge-primary"><span class="badge-dot"></span>مدیریت هوشمند</span>
+        <h2 class="sec-title">میز کار یکپارچه ارکان مدرسه</h2>
+        <p class="sec-desc">تفکیک دقیق دسترسی‌ها و پنل‌های تخصصی برای مدیریت مجتمع، دبیران، اولیاء و دانش‌آموزان با بالاترین سطح سرعت و امنیت</p>
+      </div>
+
+      <!-- Top Pills Nav Bar (Centered / وسط‌چین) -->
+      <div class="mui-tabs-wrapper" style="justify-content: center;">
+        <div class="mui-top-tabs-bar" role="tablist">
+          <button class="mui-top-tab active" data-mui-tab="admin" role="tab" aria-selected="true">
+            <svg class="mui-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <rect width="18" height="18" x="3" y="3" rx="2"/>
+              <path d="M3 9h18"/>
+              <path d="M9 21V9"/>
+            </svg>
+            <span>پنل مدیریت</span>
+          </button>
+
+          <button class="mui-top-tab" data-mui-tab="teacher" role="tab" aria-selected="false">
+            <svg class="mui-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+            <span>پنل معلم</span>
+          </button>
+
+          <button class="mui-top-tab" data-mui-tab="student" role="tab" aria-selected="false">
+            <svg class="mui-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+            <span>پنل دانش آموز</span>
+          </button>
+
+          <button class="mui-top-tab" data-mui-tab="tools" role="tab" aria-selected="false">
+            <svg class="mui-tab-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>ابزارهای اختصاصی</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Showcase Card (RTL Layout: Right = Content, Left = Stacked 3 Images) -->
+      <div class="mui-main-card">
+        
+        <!-- Right Column: Texts, Badge, Checkmarks, Buttons -->
+        <div class="mui-feature-content">
+          
+          <div class="mui-pill-badge-tag">
+            <svg class="mui-badge-sparkle" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
+            <span id="mui-dynamic-tag">مدیریت مدرسه</span>
+          </div>
+
+          <h2 class="mui-feature-heading" id="mui-dynamic-heading">مدیریت هوشمند و یکپارچه مدرسه</h2>
+          
+          <p class="mui-feature-desc" id="mui-dynamic-desc">
+            همه ابزارهای موردنیاز مدیر برای نظارت بر عملکرد مدرسه، دانش‌آموزان و کادر آموزشی
+          </p>
+
+          <!-- 2x2 Feature Checklist with Verified Scalloped Badge Icons -->
+          <div class="mui-checklist-grid" id="mui-dynamic-checklist">
+            <div class="mui-check-item">
+              <svg class="mui-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span>مدیریت دانش‌آموزان و کلاس‌ها</span>
+            </div>
+
+            <div class="mui-check-item">
+              <svg class="mui-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span>نظارت بر عملکرد آموزشی</span>
+            </div>
+
+            <div class="mui-check-item">
+              <svg class="mui-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span>مدیریت کادر و کارکنان مدرسه</span>
+            </div>
+
+            <div class="mui-check-item">
+              <svg class="mui-check-badge-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.8">
+                <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76z"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span>گزارش‌ها و آمارهای مدیریتی</span>
+            </div>
+          </div>
+
+          <!-- Bottom Action Buttons Strip -->
+          <div class="mui-actions-strip">
+            <a href="#docs" class="mui-action-btn-docs">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+              <span>مشاهده مستندات</span>
+            </a>
+
+            <a href="#demo" class="mui-action-btn-dashboard open-login-trigger">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+              </svg>
+              <span>ورود به پنل دمو</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Left Column: 3 Stacked Cards (Underlying top-left corners visible, enters from bottom-right) -->
+        <div class="mui-mockup-wrapper">
+          <div class="mui-stacked-deck-container" id="mui-stacked-deck">
+            
+            <!-- Card 3: Deepest / Bottom layer (offset furthest to top-left) -->
+            <div class="mui-stacked-card card-3" id="stacked-card-3">
+              <div class="stacked-window-bar">
+                <div class="stacked-window-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <div class="stacked-window-title" id="stacked-title-3">گزارش‌ها و آنالیز جامع</div>
+              </div>
+              <div class="stacked-img-wrap">
+                <img id="stacked-img-3" src="/assets/Imgs/img-001/Screenshot 2026-09-15 215128.png" alt="پیش‌نمایش پنل ۳" class="stacked-img" />
+              </div>
+            </div>
+
+            <!-- Card 2: Middle layer (offset middle to top-left) -->
+            <div class="mui-stacked-card card-2" id="stacked-card-2">
+              <div class="stacked-window-bar">
+                <div class="stacked-window-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <div class="stacked-window-title" id="stacked-title-2">داشبورد نظارت و فرآیندها</div>
+              </div>
+              <div class="stacked-img-wrap">
+                <img id="stacked-img-2" src="/assets/Imgs/img-001/Screenshot 2026-09-15 215040.png" alt="پیش‌نمایش پنل ۲" class="stacked-img" />
+              </div>
+            </div>
+
+            <!-- Card 1: Foreground layer (in front, crisp visibility) -->
+            <div class="mui-stacked-card card-1" id="stacked-card-1">
+              <div class="stacked-window-bar">
+                <div class="stacked-window-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <div class="stacked-window-title" id="stacked-title-1">میز کار اصلی مدیریت</div>
+              </div>
+              <div class="stacked-img-wrap">
+                <img id="stacked-img-1" src="/assets/Imgs/img-001/Screenshot 2026-09-15 215025.png" alt="پیش‌نمایش پنل ۱" class="stacked-img" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MODERN VIDEO TESTIMONIAL REELS & SPOTLIGHT SHOWCASE (MOTION GRAPHICS & VIDEO SCROLL EFFECTS) -->
+  <section class="video-testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="sec-head text-center">
+        <span class="badge badge-primary"><span class="badge-dot"></span>روایت شما • مستندات ویدیویی</span>
+        <h2 class="sec-title">روایت تصویری مدیران مدارس پیشتاز کشور</h2>
+        <p class="sec-desc">تجربه عملی و مستند مدیران مجتمع‌های برتر از تحول هوشمند، نظم مالی و ارتقای رضایت اولیاء با تیچرشو.</p>
+      </div>
+
+      <!-- 4 Video Reels Story Row (Interactive Video Thumbnails with Progress and Ripple Play) -->
+      <div class="video-reels-row" id="video-reels-container">
+        <!-- Reel 1 -->
+        <div class="video-reel-card active scroll-motion-target" data-testi-id="1"
+          style="--card-color: #026aa7; --card-glow: rgba(2, 106, 167, 0.3);">
+          <div class="reel-thumb-box">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop" alt="دکتر سید محمدرضا هاشمی" class="reel-thumb-img" />
+            <div class="reel-overlay-gradient"></div>
+            <div class="reel-play-btn">
+              <span class="reel-play-ripple"></span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <span class="reel-hd-badge">4K ULTRA</span>
+            <span class="reel-time-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> ۰۱:۲۴</span>
+          </div>
+          <div class="reel-info-box">
+            <strong class="reel-author-name">دکتر سید محمدرضا هاشمی</strong>
+            <span class="reel-school-name">مجتمع آموزشی حکمت (تهران)</span>
+            <span class="reel-achievement-tag">کاهش ۹۲٪ معوقات مالی</span>
+          </div>
+          <div class="reel-progress-track">
+            <div class="reel-progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Reel 2 -->
+        <div class="video-reel-card scroll-motion-target" data-testi-id="2"
+          style="--card-color: #026aa7; --card-glow: rgba(2, 106, 167, 0.3);">
+          <div class="reel-thumb-box">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop" alt="مهندس مریم حسینی" class="reel-thumb-img" />
+            <div class="reel-overlay-gradient"></div>
+            <div class="reel-play-btn">
+              <span class="reel-play-ripple"></span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <span class="reel-hd-badge">FULL HD</span>
+            <span class="reel-time-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> ۰۰:۵۸</span>
+          </div>
+          <div class="reel-info-box">
+            <strong class="reel-author-name">مهندس مریم حسینی</strong>
+            <span class="reel-school-name">آموزشگاه قلم (اصفهان)</span>
+            <span class="reel-achievement-tag">صفر دقیقه تاخیر تصحیح</span>
+          </div>
+          <div class="reel-progress-track">
+            <div class="reel-progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Reel 3 -->
+        <div class="video-reel-card scroll-motion-target" data-testi-id="3"
+          style="--card-color: #026aa7; --card-glow: rgba(2, 106, 167, 0.3);">
+          <div class="reel-thumb-box">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop" alt="دکتر علیرضا احمدی" class="reel-thumb-img" />
+            <div class="reel-overlay-gradient"></div>
+            <div class="reel-play-btn">
+              <span class="reel-play-ripple"></span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <span class="reel-hd-badge">4K ULTRA</span>
+            <span class="reel-time-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> ۰۲:۱۰</span>
+          </div>
+          <div class="reel-info-box">
+            <strong class="reel-author-name">دکتر علیرضا احمدی</strong>
+            <span class="reel-school-name">مجتمع هوشمند علامه (شیراز)</span>
+            <span class="reel-achievement-tag">رشد ۳۸٪ میانگین معدل</span>
+          </div>
+          <div class="reel-progress-track">
+            <div class="reel-progress-fill"></div>
+          </div>
+        </div>
+
+        <!-- Reel 4 -->
+        <div class="video-reel-card scroll-motion-target" data-testi-id="4"
+          style="--card-color: #026aa7; --card-glow: rgba(2, 106, 167, 0.3);">
+          <div class="reel-thumb-box">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop" alt="سرکار خانم رضایی" class="reel-thumb-img" />
+            <div class="reel-overlay-gradient"></div>
+            <div class="reel-play-btn">
+              <span class="reel-play-ripple"></span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <span class="reel-hd-badge">FULL HD</span>
+            <span class="reel-time-badge"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg> ۰۱:۱۵</span>
+          </div>
+          <div class="reel-info-box">
+            <strong class="reel-author-name">سرکار خانم فاطمه رضایی</strong>
+            <span class="reel-school-name">مدرسه استعدادهای رشد (مشهد)</span>
+            <span class="reel-achievement-tag">۱۰۰٪ رضایت اولیاء</span>
+          </div>
+          <div class="reel-progress-track">
+            <div class="reel-progress-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- MOTION GRAPHIC REVIEWS MARQUEE (Matching User Screenshot with Fade Masks & Continuous Right-to-Left Motion) -->
+      <div class="testimonials-motion-section">
+        <div class="sec-head text-center" style="margin-top: 3rem; margin-bottom: 1.5rem;">
+          <span class="badge badge-primary"><span class="badge-dot"></span>بازخورد و نظرات ثبت‌شده</span>
+          <h3 class="sec-title" style="font-size: 1.65rem; margin-top: 0.5rem;">آنچه جامعه کاربران و مدیران درباره ما می‌گویند</h3>
+        </div>
+
+        <div class="testimonials-marquee-viewport" dir="ltr">
+          <div class="testimonials-marquee-track">
+            <!-- SET 1 (8 Distinct Cards) -->
+            <!-- Card 1: مهندس علیرضا نجفی -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop" alt="مهندس علیرضا نجفی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">علیرضا نجفی</div>
+                  <div class="social-testi-handle">@a_najafi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                تیچرشو کاربری فوق‌العاده آسانی دارد و در عین حال به اندازه کافی قدرتمند است که تمام تکالیف، نمرات و کلاس‌ها را بدون زحمت سامان دهد. به بخش جدایی‌ناپذیر روزمره مدرسه ما تبدیل شده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۵ دی ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 2: مهندس پیمان صادقی -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop" alt="مهندس پیمان صادقی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس پیمان صادقی</div>
+                  <div class="social-testi-handle">@peyman_sadeghi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                به عنوان مؤسس مجتمع، دسترسی به یک سیستم یکپارچه، سریع و با کاربری آسان برای ما حیاتی بود. تیچرشو نه تنها این هدف را محقق کرد، بلکه ارتباط کادر و اولیاء را بسیار منظم و مستمر کرد.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۹ بهمن ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 3: دکتر رامین سهرابی -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop" alt="دکتر رامین سهرابی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر رامین سهرابی</div>
+                  <div class="social-testi-handle">@dr_sohrabi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سامانه تیچرشو شیوه مدیریت تکالیف و نمرات مرا متحول کرده است. رابط کاربری جذاب و عملکرد روان آن باعث شده ارسال و تصحیح آنلاین تکالیف در سریع‌ترین زمان ممکن انجام شود.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۲ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 4: مهندس مسعود کمالی -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop" alt="مهندس مسعود کمالی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس مسعود کمالی</div>
+                  <div class="social-testi-handle">@m_kamali</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                پیش از این نرم‌افزارهای مختلفی را آزموده بودیم، اما هیچ‌کدام این جامعیت و سادگی را نداشتند. از طراحی استاندارد تا گزارش‌گیری‌های خودکار، عملکرد فراتر از انتظار بوده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۰۴ فروردین ۱۴۰۵</span>
+              </div>
+            </div>
+
+            <!-- Card 5: دکتر سید محمدرضا هاشمی (مدیر مجتمع) -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop" alt="دکتر سید محمدرضا هاشمی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر محمدرضا هاشمی</div>
+                  <div class="social-testi-handle">@dr_hashemi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                تیچرشو در تمام ابعاد فراتر از انتظار ما ظاهر شده است. کاربری آسان در کنار قدرت فنی بالا، مدیریت امور آموزشی و نظارت بر کادر مجتمع را بی‌نهایت روان کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۵ دی ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 6: مهندس مریم حسینی (آموزشگاه قلم) -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop" alt="مهندس مریم حسینی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس مریم حسینی</div>
+                  <div class="social-testi-handle">@m_hosseini</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سیستم تصحیح آنلاین تکالیف و برنامه کلاسی هوشمند ساعات کاری معلمان ما را به حداقل رسانده و دقت آموزش و بازخورد به دانش‌آموزان را دوچندان کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۲۴ بهمن ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 7: دکتر علیرضا احمدی (مجتمع علامه) -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop" alt="دکتر علیرضا احمدی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر علیرضا احمدی</div>
+                  <div class="social-testi-handle">@dr_ahmadi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                به عنوان مؤسس مجتمع، دسترسی به داشبورد تحلیلی لحظه‌ای و نمودارهای مقایسه‌ای نمرات، تصمیم‌گیری‌های آموزشی را بسیار دقیق و مستند کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۲ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 8: سرکار خانم فاطمه رضایی (مدرسه رشد) -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop" alt="سرکار خانم فاطمه رضایی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">فاطمه رضایی</div>
+                  <div class="social-testi-handle">@rezaei_sch</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سیستم یادآوری خودکار اقساط شهریه و ارسال پیامک‌های لحظه‌ای به اولیاء، بدهی‌های معوق مجتمع ما را برای اولین بار در طول سال‌های فعالیت به صفر رساند.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۲۸ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- SET 2 (Exact Duplicate for Continuous Seamless Infinite Loop) -->
+            <!-- Card 1 Duplicate -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop" alt="مهندس علیرضا نجفی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">علیرضا نجفی</div>
+                  <div class="social-testi-handle">@a_najafi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                تیچرشو کاربری فوق‌العاده آسانی دارد و در عین حال به اندازه کافی قدرتمند است که تمام تکالیف، نمرات و کلاس‌ها را بدون زحمت سامان دهد. به بخش جدایی‌ناپذیر روزمره مدرسه ما تبدیل شده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۵ دی ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 2 Duplicate -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop" alt="مهندس پیمان صادقی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس پیمان صادقی</div>
+                  <div class="social-testi-handle">@peyman_sadeghi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                به عنوان مؤسس مجتمع، دسترسی به یک سیستم یکپارچه، سریع و با کاربری آسان برای ما حیاتی بود. تیچرشو نه تنها این هدف را محقق کرد، بلکه ارتباط کادر و اولیاء را بسیار منظم و مستمر کرد.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۹ بهمن ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 3 Duplicate -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop" alt="دکتر رامین سهرابی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر رامین سهرابی</div>
+                  <div class="social-testi-handle">@dr_sohrabi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سامانه تیچرشو شیوه مدیریت تکالیف و نمرات مرا متحول کرده است. رابط کاربری جذاب و عملکرد روان آن باعث شده ارسال و تصحیح آنلاین تکالیف در سریع‌ترین زمان ممکن انجام شود.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۲ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 4 Duplicate -->
+            <div class="social-testi-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop" alt="مهندس مسعود کمالی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس مسعود کمالی</div>
+                  <div class="social-testi-handle">@m_kamali</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                پیش از این نرم‌افزارهای مختلفی را آزموده بودیم، اما هیچ‌کدام این جامعیت و سادگی را نداشتند. از طراحی استاندارد تا گزارش‌گیری‌های خودکار، عملکرد فراتر از انتظار بوده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۰۴ فروردین ۱۴۰۵</span>
+              </div>
+            </div>
+
+            <!-- Card 5 Duplicate -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop" alt="دکتر سید محمدرضا هاشمی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر محمدرضا هاشمی</div>
+                  <div class="social-testi-handle">@dr_hashemi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                تیچرشو در تمام ابعاد فراتر از انتظار ما ظاهر شده است. کاربری آسان در کنار قدرت فنی بالا، مدیریت امور آموزشی و نظارت بر کادر مجتمع را بی‌نهایت روان کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۵ دی ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 6 Duplicate -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop" alt="مهندس مریم حسینی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">مهندس مریم حسینی</div>
+                  <div class="social-testi-handle">@m_hosseini</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سیستم تصحیح آنلاین تکالیف و برنامه کلاسی هوشمند ساعات کاری معلمان ما را به حداقل رسانده و دقت آموزش و بازخورد به دانش‌آموزان را دوچندان کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۲۴ بهمن ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 7 Duplicate -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop" alt="دکتر علیرضا احمدی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">دکتر علیرضا احمدی</div>
+                  <div class="social-testi-handle">@dr_ahmadi</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                به عنوان مؤسس مجتمع، دسترسی به داشبورد تحلیلی لحظه‌ای و نمودارهای مقایسه‌ای نمرات، تصمیم‌گیری‌های آموزشی را بسیار دقیق و مستند کرده است.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۱۲ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+
+            <!-- Card 8 Duplicate -->
+            <div class="social-testi-card is-persian-card">
+              <div class="social-testi-header">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop" alt="سرکار خانم فاطمه رضایی" class="social-testi-avatar" loading="lazy" />
+                <div class="social-testi-user">
+                  <div class="social-testi-name">فاطمه رضایی</div>
+                  <div class="social-testi-handle">@rezaei_sch</div>
+                </div>
+              </div>
+              <p class="social-testi-text">
+                سیستم یادآوری خودکار اقساط شهریه و ارسال پیامک‌های لحظه‌ای به اولیاء، بدهی‌های معوق مجتمع ما را برای اولین بار در طول سال‌های فعالیت به صفر رساند.
+              </p>
+              <div class="social-testi-footer">
+                <svg class="social-testi-x-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+                <span class="social-testi-date">۲۸ اسفند ۱۴۰۴</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Motion Graphic FAQ Showcase Section (NO Dropdowns/Accordions, Full Motion Graphics) -->
+  <section id="faq" style="padding: 4rem 0;">
+    <div class="container">
+      <div class="sec-head">
+        <span class="badge badge-primary"><span class="badge-dot"></span>سوالات پرتکرار</span>
+        <h2 class="sec-title">پاسخ‌های هوشمند به سوالات و ابهامات متداول</h2>
+        <p class="sec-desc">بدون نیاز به آکاردئون و کشو، شفاف‌ترین پاسخ‌های فنی را در جریان موشن‌گرافیک زیر مشاهده کنید.
+        </p>
+      </div>
+
+      <!-- FAQ Category Selector (Motion Graphic Pills) -->
+      <div class="faq-motion-nav">
+        <button class="faq-nav-btn active" data-faq-id="1">
+          <span class="faq-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span>
+          ۱. زیرساخت و عدم نیاز به نصب
+        </button>
+        <button class="faq-nav-btn" data-faq-id="2">
+          <span class="faq-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+          ۲. مکانیزم یادآوری SMS شهریه
+        </button>
+        <button class="faq-nav-btn" data-faq-id="3">
+          <span class="faq-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
+          ۳. سطوح دسترسی کادر مدرسه
+        </button>
+        <button class="faq-nav-btn" data-faq-id="4">
+          <span class="faq-nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+          ۴. امنیت، پشتیبانی & بک‌آپ
+        </button>
+      </div>
+
+      <!-- FAQ Motion Graphic Spotlight Stage (NO DROPDOWNS) -->
+      <div class="faq-motion-stage">
+
+        <!-- Animated Radar & Motion Graphic Visual Canvas -->
+        <div class="faq-graphic-canvas">
+          <svg class="faq-svg-anim" viewBox="0 0 400 320" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="faqGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.8" />
+              </linearGradient>
+              <filter id="faqGlow">
+                <feGaussianBlur stdDeviation="6" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+            </defs>
+
+            <!-- Animated Radar / Pulse Rings -->
+            <circle cx="200" cy="160" r="130" fill="none" stroke="rgba(139, 92, 246, 0.2)" stroke-width="2"
+              stroke-dasharray="6 6" />
+            <circle cx="200" cy="160" r="90" fill="none" stroke="rgba(59, 130, 246, 0.25)" stroke-width="2" />
+            <circle class="faq-pulse-ring" cx="200" cy="160" r="50" fill="none" stroke="url(#faqGrad1)" stroke-width="3"
+              filter="url(#faqGlow)" />
+
+            <!-- Rotating Radar Sweeper -->
+            <g class="faq-radar-sweeper">
+              <line x1="200" y1="160" x2="320" y2="160" stroke="#a855f7" stroke-width="2.5" opacity="0.8" />
+              <polygon points="200,160 320,160 300,110" fill="rgba(168, 85, 247, 0.15)" />
+            </g>
+
+            <!-- Floating Motion Nodes -->
+            <circle class="faq-node-dot fn1" cx="280" cy="100" r="7" fill="#38bdf8" />
+            <circle class="faq-node-dot fn2" cx="120" cy="220" r="7" fill="#10b981" />
+            <circle class="faq-node-dot fn3" cx="130" cy="110" r="7" fill="#f59e0b" />
+          </svg>
+
+          <!-- Floating Core Icon in Center -->
+          <div class="faq-core-icon-box">
+            <div class="faq-icon-inner" id="faq-active-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <div class="faq-orbit-ring"></div>
+          </div>
+
+          <!-- Bottom Status Pill -->
+          <div class="faq-graphic-status">
+            <span class="faq-live-dot"></span>
+            <span id="faq-status-text">پاسخ‌دهنده خودکار فعال • سرعت تحلیل: ۰.۰۵s</span>
+          </div>
+        </div>
+
+        <!-- Typography & Graphic Answer Card -->
+        <div class="faq-answer-display">
+          <div class="faq-header-tag-row">
+            <span class="badge badge-primary" id="faq-cat-badge">زیرساخت ابری PWA</span>
+            <span class="faq-q-number" id="faq-q-num">سوال شماره ۱ از ۴</span>
+          </div>
+
+          <h3 class="faq-question-title" id="faq-question-text">
+            آیا استفاده از تیچرشو نیاز به نصب نرم‌افزار یا تجهیزات سخت‌افزاری خاصی دارد؟
+          </h3>
+
+          <div class="faq-answer-box">
+            <p id="faq-answer-text">
+              خیر! تیچرشو یک سامانه ۱۰۰٪ ابری (Web-Based) و مبتنی بر فناوری PWA است. کلیه مدیران، معلمان، اولیاء و
+              دانش‌آموزان می‌توانند بدون نیاز به نصب هیچ‌گونه فایل یا اپلیکیشن، تنها از طریق مرورگر تمام دستگاه‌ها
+              (موبایل، تبلت، لپ‌تاپ) با بالاترین سرعت وارد پرتال خود شوند.
+            </p>
+          </div>
+
+          <!-- Feature Highlights Vector Bullet List -->
+          <div class="faq-highlights-grid">
+            <div class="faq-hl-item">
+              <div class="faq-hl-bullet bullet-purple">✓</div>
+              <div>
+                <strong id="faq-hl1-title">پشتیبانی از تمام سیستم‌عامل‌ها</strong>
+                <span id="faq-hl1-sub">اجرا روی اندروید، iOS، Windows و macOS</span>
+              </div>
+            </div>
+
+            <div class="faq-hl-item">
+              <div class="faq-hl-bullet bullet-emerald">✓</div>
+              <div>
+                <strong id="faq-hl2-title">به‌روزرسانی خودکار و بدون هزینه</strong>
+                <span id="faq-hl2-sub">دسترسی همیشگی به آخرین آپدیت‌های امنیتی</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Next/Prev Motion Controller -->
+          <div class="faq-controls-row">
+            <div class="faq-progress-bar">
+              <div class="faq-progress-fill" id="faq-progress-fill" style="width: 25%;"></div>
+            </div>
+            <div class="faq-arrows-box">
+              <button id="faq-prev-btn" class="faq-arrow-btn" title="سوال قبلی">←</button>
+              <button id="faq-next-btn" class="faq-arrow-btn" title="سوال بعدی">→</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Login & 2FA Modal -->
+  <div id="login-modal-overlay" class="modal-overlay">
+    <div class="modal-content">
+      <div id="close-modal-btn" class="modal-close">✕</div>
+
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <span class="badge badge-dark">ورود به سامانه</span>
+        <h3 style="font-size: 1.25rem; font-weight: 900; margin-top: 0.4rem;">ورود به پرتال تیچرشو</h3>
+      </div>
+
+      <!-- Role Selector Buttons -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; margin-bottom: 1.25rem;">
+        <button class="modal-role-btn active" style="padding: 0.45rem; font-size: 0.75rem; border-radius: var(--r-md); font-weight: 800; cursor: pointer;">معلم / مدیر</button>
+        <button class="modal-role-btn" style="padding: 0.45rem; font-size: 0.75rem; border-radius: var(--r-md); font-weight: 800; cursor: pointer; background: var(--c-slate-100); color: var(--c-slate-700);">دانش‌آموز</button>
+        <button class="modal-role-btn" style="padding: 0.45rem; font-size: 0.75rem; border-radius: var(--r-md); font-weight: 800; cursor: pointer; background: var(--c-slate-100); color: var(--c-slate-700);">ولی دانش‌آموز</button>
+      </div>
+
+      <form id="modal-login-form" style="display: flex; flex-direction: column; gap: 0.85rem;">
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 800; color: var(--c-slate-700); display: block; margin-bottom: 0.3rem;">شماره تلفن / نام کاربری</label>
+          <input type="text" id="login-username" placeholder="مثال: 09123456789" style="width: 100%; padding: 0.7rem; border-radius: var(--r-md); border: 1px solid var(--c-slate-200); background: var(--c-slate-50); font-size: 0.875rem;">
+        </div>
+
+        <div>
+          <label style="font-size: 0.75rem; font-weight: 800; color: var(--c-slate-700); display: block; margin-bottom: 0.3rem;">رمز عبور</label>
+          <input type="password" id="login-password" placeholder="••••••••" style="width: 100%; padding: 0.7rem; border-radius: var(--r-md); border: 1px solid var(--c-slate-200); background: var(--c-slate-50); font-size: 0.875rem;">
+        </div>
+
+        <!-- 2FA Box -->
+        <div id="modal-2fa-box"
+          style="display: none; background: var(--c-amber-50); border: 1px solid #fde68a; border-radius: var(--r-md); padding: 0.85rem;">
+          <label style="font-size: 0.75rem; font-weight: 800; color: var(--c-amber-600); display: block; margin-bottom: 0.3rem;">کد ۲FA (Google Authenticator)</label>
+          <input type="text" id="login-2fa-code" placeholder="۱۲۳۴۵۶" style="width: 100%; padding: 0.6rem; border-radius: var(--r-sm); border: 1px solid var(--c-amber-500); background: #ffffff; font-size: 0.875rem; text-align: center;">
+        </div>
+
+        <button type="submit" id="login-submit-btn" class="btn-main" style="margin-top: 0.5rem; width: 100%; justify-content: center;">
+          <span>ورود به حساب کاربری</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Main Footer (Simple, Short, Matching Project Style, No Buttons) -->
+  <footer class="footer-compact">
+    <div class="container">
+      <div class="footer-compact-inner">
+
+        <!-- Brand & Status Tag -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-logo">
+            <div class="saasable-brand-icon" style="width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; background: #eff6ff; border-radius: 8px; overflow: hidden;">
+              <img src="assets/Imgs/Logo/Logo.png" alt="لوگوی تیچرشو" style="width: 22px; height: 22px; object-fit: contain;">
+            </div>
+            <strong>تیچرشو</strong>
+            <span class="footer-ver-tag">نسخه ۴.۲ هوشمند</span>
+          </div>
+          <p class="footer-tagline">سامانه یکپارچه مدیریت مدارس، برنامه‌ریزی هوشمند و ارتباط اولیا</p>
+        </div>
+
+        <!-- Clean Text Navigation Links with Motion-Graphic Incremental Border -->
+        <div class="footer-nav-links">
+          <a href="#hero" class="footer-link">
+            <span class="footer-link-text">صفحه اصلی</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#at-a-glance" class="footer-link">
+            <span class="footer-link-text">در یک نگاه</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#ecosystem" class="footer-link">
+            <span class="footer-link-text">اکوسیستم</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#assignments" class="footer-link">
+            <span class="footer-link-text">آموزش هوشمند</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#workspace" class="footer-link">
+            <span class="footer-link-text">مدیریت هوشمند</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#testimonials" class="footer-link">
+            <span class="footer-link-text">روایت شما</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+          <a href="#faq" class="footer-link">
+            <span class="footer-link-text">سوالات پرتکرار</span>
+            <span class="mg-border-line mg-top"></span>
+            <span class="mg-border-line mg-left"></span>
+            <span class="mg-border-line mg-bottom"></span>
+            <span class="mg-border-line mg-right"></span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom Legal Row -->
+      <div class="footer-compact-bottom">
+        <span class="footer-copy-text">© ۱۴۰۴ کلیه حقوق متعلق به سامانه هوشمند مدیریت مدارس <strong>تیچرشو</strong> است.</span>
+        <div class="footer-mini-links">
+          <a href="#">حریم خصوصی</a>
+          <span>•</span>
+          <a href="#">قوانین و مقررات</a>
+          <span>•</span>
+          <a href="#">امنیت داده‌ها</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="back-to-top" class="back-to-top-btn" title="برگشت به بالا" aria-label="برگشت به بالا">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Quick Docs Modal -->
+  <div id="docs-modal-overlay" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 520px;" dir="ltr">
+      <div id="close-docs-modal-btn" class="modal-close">✕</div>
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem;">
+        <div class="saasable-brand-icon">
+          <svg width="26" height="26" viewBox="0 0 28 28" fill="none">
+            <path d="M3.2 24.8L25.6 14L3.2 3.2L3 11.6L19 14L3 16.4L3.2 24.8Z" fill="#026aa7"/>
+          </svg>
+        </div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; color: #026aa7; margin: 0;">SaasAble Documentation</h3>
+      </div>
+      <p style="font-size: 0.9rem; color: #475569; line-height: 1.6; margin-bottom: 1.25rem;">
+        Quick guide to exploring the platform features, role-based workflows, and interactive tools.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1.5rem;">
+        <a href="#ecosystem" class="saasable-dropdown-item close-docs-trigger">
+          <span style="font-size: 1.25rem;">🏫</span>
+          <div class="saasable-dropdown-info">
+            <strong style="color: #0f172a;">School Platform Architecture</strong>
+            <small style="color: #64748b;">Overview of modules, multi-role access, and notifications</small>
+          </div>
+        </a>
+        <a href="#workspace" class="saasable-dropdown-item close-docs-trigger">
+          <span style="font-size: 1.25rem;">💻</span>
+          <div class="saasable-dropdown-info">
+            <strong style="color: #0f172a;">Interactive Workspace</strong>
+            <small style="color: #64748b;">Teacher digital grading pen &amp; student portal demo</small>
+          </div>
+        </a>
+        <a href="#analytics" class="saasable-dropdown-item close-docs-trigger">
+          <span style="font-size: 1.25rem;">📊</span>
+          <div class="saasable-dropdown-info">
+            <strong style="color: #0f172a;">Analytics &amp; Report Cards</strong>
+            <small style="color: #64748b;">Multi-dimensional performance analysis &amp; GPA simulation</small>
+          </div>
+        </a>
+      </div>
+      <button class="btn-main close-docs-trigger" style="width: 100%; padding: 0.65rem; background: #026aa7; border-radius: 9999px;">Got it</button>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
